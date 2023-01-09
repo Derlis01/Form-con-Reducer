@@ -1,9 +1,14 @@
+body {
+    background-color: rgb(12, 12, 12);
+    color: white;
+}
+
 .inputCard {
     display: flex;
     align-items: center;
     height: 50px;
     width: 400px;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(56, 56, 56);
     border-radius: 5px;
     margin: 15px;
 }
@@ -12,13 +17,15 @@ label {
     margin: 7px;
     margin-right: 18px;
     font-weight: 500;
-    color: gray;
+    color: rgb(214, 214, 214);
 }
 
 input {
     height: 25px;
     border-radius: 7px;
     border: 0px;
+    background-color: rgb(29, 29, 29);
+    color: white;
 }
 
 .error {
