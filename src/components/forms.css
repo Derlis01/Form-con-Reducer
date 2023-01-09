@@ -1,0 +1,35 @@
+.inputCard {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 400px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    margin: 15px;
+}
+
+label {
+    margin: 7px;
+    margin-right: 18px;
+    font-weight: 500;
+    color: gray;
+}
+
+input {
+    height: 25px;
+    border-radius: 7px;
+    border: 0px;
+}
+
+.error {
+    background-color: rgb(255, 68, 68);
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+label {
+    width: 120px;
+    text-align: center;
+}
